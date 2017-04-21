@@ -1,0 +1,133 @@
+/* raleway-300 - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Raleway Light'), local('Raleway-Light'),
+       url('../fonts/raleway-v11-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/raleway-v11-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'),
+       url('../fonts/raleway-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/raleway-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* raleway-700 - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Raleway Bold'), local('Raleway-Bold'),
+       url('../fonts/raleway-v11-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/raleway-v11-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+  font-family: 'Raleway';
+}
+
+body {
+  margin-left: 10%;
+  width: 80%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.headshot {
+  max-width: 25%;
+  height: auto;
+  vertical-align: top;
+}
+
+.content {
+  display: inline-block;
+  width: 70%;
+  margin-left: 3%;
+
+  h3, h4, p {
+    margin-top: 0;
+    margin-bottom: 1%;
+    font-weight: lighter;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: .8em;
+  }
+
+  h5 {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+
+  .button, .likedbutton {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 1em;
+
+    .like {
+      display: inline-block;
+      height: 1em;
+    }
+
+
+    p {
+      margin-left: 2px;
+      display: inline-block;
+      font-weight: bold;
+    }
+  }
+
+  .button {
+    color: blue;
+    .like {
+      fill: blue;
+    }
+  } 
+
+  .likedbutton {
+    color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 2px;
+    
+   .like {
+      fill: green;
+    }
+  } 
+
+  .yes {
+    margin-top: 1%;
+    font-weight: lighter;
+  }
+}
+
+.tile {
+  padding-bottom: 1em;
+  margin-top: 1em;
+  border-bottom: 1px solid #d3d3d3; 
+}
+
+h2 {
+  font-size: 2em;
+  color: orange;
+  font-weight: lighter;
+  padding-bottom: .5em;
+  border-bottom: 1px solid #d3d3d3; 
+  margin-top: .5em;
+}
+
+
